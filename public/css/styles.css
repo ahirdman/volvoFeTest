@@ -1,4 +1,23 @@
-body {
-  background: steelblue;
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel__dot-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel__dot {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 50%;
+}
+
+.carousel__dot--selected {
+  background-color: black;
 }
